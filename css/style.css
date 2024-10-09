@@ -432,3 +432,49 @@
     padding-right: 0;
     border-right: none;
 }
+
+/*** Formations ***/
+
+.video {
+    display: flex;
+    margin : auto auto 50px auto;
+}
+
+.formation-content {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.formation-content p {
+    margin-left: 55px;
+    margin-right: 55px;
+    text-align: justify;
+}
+
+.formation-img {
+    width: 100%;
+}
+
+.formation-card {
+    height: 300px;
+    width: 248px;
+    background-color: #D3D3D360;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px 2px rgba(207, 207, 207, 0.75);
+}
+
+.formation-cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin : 30px 0 30px 0;
+}
+
+.formation-btn {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0  0;
+}
+
