@@ -28,7 +28,7 @@ function checkAnswer(questionNumber, selectedAnswer) {
         : questionNumber === 4
         ? "Lorsque sa surface est supérieure à la paume de la main de la victime"
         : "Les yeux, le nez, les mains, les organes génitaux";
-      feedback.innerHTML = `<p class='incorrect-answer'>Incorrect. La bonne réponse est : <span class='correct-answer'>${correctAnswerText}</span>.</p>`;
+      feedback.innerHTML = `<p class='incorrect-answer'>Incorrect. La bonne réponse est : <b>${correctAnswerText}</b>.</p>`;
     }
   
     // Mettre à jour la barre de progression
