@@ -96,7 +96,7 @@ function showCertificate() {
   const quizContainer = document.querySelector('.quiz-container');
   quizContainer.remove();
   const link = document.createElement('a');
-  link.href = 'Certificat.png'; 
+  link.href = 'img/Certificat.png'; 
   link.download = 'Certification.png'; 
   link.style.display = 'none'; 
   document.body.appendChild(link);
