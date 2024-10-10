@@ -88,7 +88,7 @@ function showFinalScore() {
   
 // Retour à la home page
 function goToTraining() {
-  window.location.href = "home.html";
+  window.location.href = "Formation.html";
 }
 
 // Voir la certification
