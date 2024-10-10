@@ -441,17 +441,18 @@
 
 .video {
     display: flex;
-    margin : auto auto 50px auto;
+    margin: auto auto 50px auto;
+    width: 90%; /* La vidéo prend 100% de la largeur disponible */
+    max-width: 100%; /* Empêche la vidéo de dépasser 100% de la largeur de l'écran */
+    height: auto; /* Maintient le ratio d'aspect de la vidéo */
 }
 
 .formation-content {
-    margin-left: 55px;
-    margin-right: 55px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .formation-content p {
-    margin-left: 55px;
-    margin-right: 55px;
     text-align: justify;
 }
 
@@ -474,6 +475,7 @@
     gap: 40px;
     justify-content: center;
     margin : 30px 0 30px 0;
+    flex-wrap: wrap;
 }
 
 .formation-btn {
