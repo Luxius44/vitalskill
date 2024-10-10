@@ -14,3 +14,4 @@ L’idée est de proposer une solution d'apprentissage en ligne qui rende les co
 - Faciliter la mise en pratique grâce à la réalité virtuelle.
 
 Pour voir notre site web il faut télécharger l'archive, l'extraire puis lancer home.html avec un navigateur web.
+Ou via <https://vitalskills.netlify.app>.
