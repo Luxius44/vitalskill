@@ -80,139 +80,138 @@
      
     <!-- Content Start -->
     <div class="quiz-container">
-        <h2 id="question-title">Question 1/5</h2>
-        
-        <!-- Barre de progression -->
-        <div class="progress-bar-container">
-          <div class="progress-bar" id="progress-bar"></div>
-        </div>
-    
-        <!-- Question 1 -->
-        <div class="question" id="question1">
-          <p>Quelles sont les principales causes des brûlures ?</p>
-          <form id="quiz-form">
-            <label class="option">
-              <input type="radio" name="q1" value="1" onclick="checkAnswer(1, '1')">
-              <span>Chaleur, électricité, frottement, substances chimiques</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q1" value="2" onclick="checkAnswer(1, '2')">
-              <span>Eau, sel, vent, électricité</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q1" value="3" onclick="checkAnswer(1, '3')">
-              <span>Air froid, frottement, substances chimiques</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q1" value="4" onclick="checkAnswer(1, '4')">
-              <span>Soleil, vent, électricité, liquide froid</span>
-            </label>
-          </form>
-          <div id="feedback1"></div>
-          <div class="next-arrow" onclick="showNextQuestion(2)">&#10132;</div>
-        </div>
-    
-        <!-- Question 2 -->
-        <div class="question" id="question2" style="display: none;">
-          <p>Quelle est la première cause de brûlures chez les enfants de moins de 5 ans ?</p>
-          <form id="quiz-form">
-            <label class="option">
-              <input type="radio" name="q2" value="1" onclick="checkAnswer(2, '1')">
-              <span>Les contacts avec des liquides chauds</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q2" value="2" onclick="checkAnswer(2, '2')">
-              <span>Les contacts avec une plaque électrique</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q2" value="3" onclick="checkAnswer(2, '3')">
-              <span>Les contacts avec des solides chauds</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q2" value="4" onclick="checkAnswer(2, '4')">
-              <span>Les expositions au soleil</span>
-            </label>
-          </form>
-          <div id="feedback2"></div>
-          <div class="next-arrow" onclick="showNextQuestion(3)">&#10132;</div>
-        </div>
-    
-        <!-- Question 3 -->
-        <div class="question" id="question3" style="display: none;">
-          <p>Quel est le signe d'une brûlure du premier degré ?</p>
-          <form id="quiz-form">
-            <label class="option">
-              <input type="radio" name="q3" value="1" onclick="checkAnswer(3, '1')">
-              <span>La peau est noire ou blanchâtre</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q3" value="2" onclick="checkAnswer(3, '2')">
-              <span>La peau est rouge, sans cloques</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q3" value="3" onclick="checkAnswer(3, '3')">
-              <span>La peau comporte des cloques remplies de liquide</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q3" value="4" onclick="checkAnswer(3, '4')">
-              <span>La peau est insensible</span>
-            </label>
-          </form>
-          <div id="feedback3"></div>
-          <div class="next-arrow" onclick="showNextQuestion(4)">&#10132;</div>
-        </div>
-    
-        <!-- Question 4 -->
-        <div class="question" id="question4" style="display: none;">
-          <p>Quand une brûlure est-elle considérée comme grave en termes d’étendue ?</p>
-          <form id="quiz-form">
-            <label class="option">
-              <input type="radio" name="q4" value="1" onclick="checkAnswer(4, '1')">
-              <span>Lorsque sa surface est supérieure à un quart de la paume de la main de la victime</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q4" value="2" onclick="checkAnswer(4, '2')">
-              <span>Lorsque sa surface est supérieure à la moitié de la paume de la main de la victime</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q4" value="3" onclick="checkAnswer(4, '3')">
-              <span>Lorsque sa surface est supérieure à la paume de la main de la victime</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q4" value="4" onclick="checkAnswer(4, '4')">
-              <span>Lorsque sa surface est inférieure à la moitié de la paume de la main de la victime</span>
-            </label>
-          </form>
-          <div id="feedback4"></div>
-          <div class="next-arrow" onclick="showNextQuestion(5)">&#10132;</div>
-        </div>
-    
-        <!-- Question 5 -->
-        <div class="question" id="question5" style="display: none;">
-          <p>Quelles localisations de brûlures sont classées parmi les brûlures graves ?</p>
-          <form id="quiz-form">
-            <label class="option">
-              <input type="radio" name="q5" value="1" onclick="checkAnswer(5, '1')">
-              <span>Les mains, les pieds, le dos</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q5" value="2" onclick="checkAnswer(5, '2')">
-              <span>Les yeux, le nez, les mains, les organes génitaux</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q5" value="3" onclick="checkAnswer(5, '3')">
-              <span>Le torse, les bras, les jambes</span>
-            </label>
-            <label class="option">
-              <input type="radio" name="q5" value="4" onclick="checkAnswer(5, '4')">
-              <span>Les pieds, les cuisses, les épaules</span>
-            </label>
-          </form>
-          <div id="feedback5"></div>
-          <!-- Pas de flèche pour la dernière question -->
-        </div>
-    
+      <h2 id="question-title">Question 1/5</h2>
+      
+      <!-- Barre de progression -->
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="progress-bar"></div>
       </div>
+  
+      <!-- Question 1 -->
+      <div class="question" id="question1">
+        <p>Quelles sont les principales causes des brûlures ?</p>
+        <form id="quiz-form">
+          <label class="option">
+            <input type="radio" name="q1" value="1" onclick="checkAnswer(1, '1')">
+            <span>Chaleur, électricité, frottement, substances chimiques</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q1" value="2" onclick="checkAnswer(1, '2')">
+            <span>Eau, sel, vent, électricité</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q1" value="3" onclick="checkAnswer(1, '3')">
+            <span>Air froid, frottement, substances chimiques</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q1" value="4" onclick="checkAnswer(1, '4')">
+            <span>Soleil, vent, électricité, liquide froid</span>
+          </label>
+        </form>
+        <div id="feedback1"></div>
+        <div class="next-arrow" onclick="showNextQuestion(2)">&#10132;</div>
+      </div>
+  
+      <!-- Question 2 -->
+      <div class="question" id="question2" style="display: none;">
+        <p>Quelle est la première cause de brûlures chez les enfants de moins de 5 ans ?</p>
+        <form id="quiz-form">
+          <label class="option">
+            <input type="radio" name="q2" value="1" onclick="checkAnswer(2, '1')">
+            <span>Les contacts avec des liquides chauds</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q2" value="2" onclick="checkAnswer(2, '2')">
+            <span>Les contacts avec une plaque électrique</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q2" value="3" onclick="checkAnswer(2, '3')">
+            <span>Les contacts avec des solides chauds</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q2" value="4" onclick="checkAnswer(2, '4')">
+            <span>Les expositions au soleil</span>
+          </label>
+        </form>
+        <div id="feedback2"></div>
+        <div class="next-arrow" onclick="showNextQuestion(3)">&#10132;</div>
+      </div>
+  
+      <!-- Question 3 -->
+      <div class="question" id="question3" style="display: none;">
+        <p>Quel est le signe d'une brûlure du premier degré ?</p>
+        <form id="quiz-form">
+          <label class="option">
+            <input type="radio" name="q3" value="1" onclick="checkAnswer(3, '1')">
+            <span>La peau est noire ou blanchâtre</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q3" value="2" onclick="checkAnswer(3, '2')">
+            <span>La peau est rouge, sans cloques</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q3" value="3" onclick="checkAnswer(3, '3')">
+            <span>La peau comporte des cloques remplies de liquide</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q3" value="4" onclick="checkAnswer(3, '4')">
+            <span>La peau est insensible</span>
+          </label>
+        </form>
+        <div id="feedback3"></div>
+        <div class="next-arrow" onclick="showNextQuestion(4)">&#10132;</div>
+      </div>
+  
+      <!-- Question 4 -->
+      <div class="question" id="question4" style="display: none;">
+        <p>Quand une brûlure est-elle considérée comme grave en termes d’étendue ?</p>
+        <form id="quiz-form">
+          <label class="option">
+            <input type="radio" name="q4" value="1" onclick="checkAnswer(4, '1')">
+            <span>Lorsque sa surface est supérieure à un quart de la paume de la main de la victime</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q4" value="2" onclick="checkAnswer(4, '2')">
+            <span>Lorsque sa surface est supérieure à la moitié de la paume de la main de la victime</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q4" value="3" onclick="checkAnswer(4, '3')">
+            <span>Lorsque sa surface est supérieure à la paume de la main de la victime</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q4" value="4" onclick="checkAnswer(4, '4')">
+            <span>Lorsque sa surface est inférieure à la moitié de la paume de la main de la victime</span>
+          </label>
+        </form>
+        <div id="feedback4"></div>
+        <div class="next-arrow" onclick="showNextQuestion(5)">&#10132;</div>
+      </div>
+  
+      <!-- Question 5 -->
+      <div class="question" id="question5" style="display: none;">
+        <p>Quelles localisations de brûlures sont classées parmi les brûlures graves ?</p>
+        <form id="quiz-form">
+          <label class="option">
+            <input type="radio" name="q5" value="1" onclick="checkAnswer(5, '1')">
+            <span>Les mains, les pieds, le dos</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q5" value="2" onclick="checkAnswer(5, '2')">
+            <span>Les yeux, le nez, les mains, les organes génitaux</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q5" value="3" onclick="checkAnswer(5, '3')">
+            <span>Le torse, les bras, les jambes</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="q5" value="4" onclick="checkAnswer(5, '4')">
+            <span>Les pieds, les cuisses, les épaules</span>
+          </label>
+        </form>
+        <div id="feedback5"></div>
+        <button class="comeback" onclick="showFinalScore()">Terminer</button>
+      </div>
+    </div>
     <!-- Content End -->
 
     <!-- Footer Start -->
